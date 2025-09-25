@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MyCyberWorld (MCW) | Learn. Build. Secure.</title>
+  <meta name="description" content="MyCyberWorld (MCW) — Practical learning for coding and cybersecurity. Blogs, simple AI tools, and clear roadmaps." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="assets/img/mcw-logo.webp" type="image/webp" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="logo" href="/">
+        <img src="assets/img/mcw-logo.webp" alt="MyCyberWorld (MCW) logo" />
+      </a>
+      <ul class="menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li><a href="/ai-lab/">AI Lab</a></li>
+        <li><a href="/learn/">Learn</a></li>
+        <li><a href="/about/">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <h1>MyCyberWorld (MCW)</h1>
+      <p>Learn. Build. Secure. Practical coding and cybersecurity for real progress.</p>
+      <a class="button" href="/blog/">Start with the Blog</a>
+    </section>
+
+    <section class="features container" aria-label="Quick sections">
+      <article class="card">
+        <h2>Blog</h2>
+        <p>From basics to advanced: clear notes on cybersecurity and coding.</p>
+        <a class="link" href="/blog/">See all posts →</a>
+      </article>
+
+      <article class="card">
+        <h2>AI Lab</h2>
+        <p>Simple tools like password strength checker and phishing hints (coming soon).</p>
+        <a class="link" href="/ai-lab/">Explore tools →</a>
+      </article>
+
+      <article class="card">
+        <h2>Learn</h2>
+        <p>Step-by-step roadmaps and a focused resource library.</p>
+        <a class="link" href="/learn/">Open the guide →</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> MyCyberWorld — MCW. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
